@@ -1,7 +1,12 @@
 .title {
     text-align: center;
     color:orange;
+    background-color: rgb(109, 37, 151);
+    margin: 30px;
+    padding: 30px;
+    
 }
+
 .paragraph {
     margin: 60px;
     padding: 15px;
@@ -9,6 +14,18 @@
     border-radius: 20px;
     box-shadow: 4px 4px 20px orange;
 }
-.cards{
-    
+
+.card{
+    background-color: goldenrod;
+    padding: 100px;
+    margin: 150px;
+    margin-top: 30px;
+}
+
+.footer{
+    background-color: yellow;
+    color:purple;
+    text-align: center;
+    margin-bottom: 5px;
+    box-shadow: 5px 5px 35px yellow;
 }

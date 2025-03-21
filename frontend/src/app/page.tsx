@@ -1,25 +1,41 @@
-//import Image from "next/image";
+import Image from "next/image";
 import './inicio.css';
+//import seytu from '../image/seytu.jpeg';
+
 
 export default function Home(){
   return (
     <div>
-      <h1 className="title">OMNILIFE</h1>
-      <div className="paragraph">
-        <p>
-          !Bienvenido a mi blog de onmilife en donde puede navegar conociendo nuestra linea de belleza o de nutrición!,
-          en este espació te daremos conocer un modo de ganar dinero progresivamente con nuestros productos. Conozca 
-          nuestro reto de 90 días, productos de nutrición y de belleza.
+      <h1 className="title">ONMILIFE Gente que cuida a la gente</h1>
+      <main>
+        <p className="paragraph">
+          !Bienvenido al mundo del cuidado en el mundo  donde somos el producto del producto!<br/>
+          Aqui tenemos más de 60 productos en la linea de nutrición y 160 de linea de belleza, vale la pena recalcar
+          que la linea de belleza Seytú es usada en los 40 paises que se encuentra establecido Onmilife junto con la
+          linea nutritiva.
         </p>
-      </div>
-      <div className="cards">
-        <img></img>
-      </div>
+        <div className="card">
+          <Image
+          src="/Onmilife.jpeg"
+          alt="Onmilife"
+          width={300}
+          height={100}
+          priority
+          />
+          <div>Onmilife</div>
+          <p>
+            Esta linea de nutrición tiene más de 60 productos que ayudan a 
+          </p>
+        </div>
+      </main>
+    <footer className="footer">Diego Alexander Corrales Piñeros Bogotá, Colombia</footer>
     </div>
   )
 }
 
-/*export default function Home() {
+
+/*
+export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">

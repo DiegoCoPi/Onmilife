@@ -19,6 +19,8 @@
   }
 }
 
-body {
-  background-color: indigo; 
+body{
+  background-color:purple;
+  background-repeat:url(/frontend/public/Onmilife.jpeg);
 }
+

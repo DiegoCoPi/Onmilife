@@ -1,34 +1,23 @@
-import Image from "next/image";
 import './inicio.css';
-//import seytu from '../image/seytu.jpeg';
-
 
 export default function Home(){
   return (
     <div>
-      <h1 className="title">ONMILIFE Gente que cuida a la gente</h1>
+      <h1 className="title">Onmilife</h1>
       <main>
         <p className="paragraph">
-          !Bienvenido al mundo del cuidado en el mundo  donde somos el producto del producto!<br/>
-          Aqui tenemos más de 60 productos en la linea de nutrición y 160 de linea de belleza, vale la pena recalcar
-          que la linea de belleza Seytú es usada en los 40 paises que se encuentra establecido Onmilife junto con la
-          linea nutritiva.
+         Bienvenidos a este espacio para los soñadores que desean ser emprendedores y emprendedores que se atrevan a soñar en grande dando el salto  
+         a ser empresario que se supere día a día ¿Eres lo suficientemente atrevido para romper con una vida rutinaria?.
+        <br/> 
+        <br/> 
+
+         Todos sabemos que la rutina nos pone en una zona confor en donde no vemos retos, oportunidades de superarnos, romper con el molde o el sistema,
+         de vivir un día a día en un trabajo que puede llegar hasrta doce horas (contando horas extras) 
         </p>
-        <div className="card">
-          <Image
-          src="/Onmilife.jpeg"
-          alt="Onmilife"
-          width={300}
-          height={100}
-          priority
-          />
-          <div>Onmilife</div>
-          <p>
-            Esta linea de nutrición tiene más de 60 productos que ayudan a 
-          </p>
+        <div>
+
         </div>
       </main>
-    <footer className="footer">Diego Alexander Corrales Piñeros Bogotá, Colombia</footer>
     </div>
   )
 }

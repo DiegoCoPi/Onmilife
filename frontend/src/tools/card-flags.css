@@ -13,7 +13,14 @@
 }
 
 .letters{
-    color:rgb(4, 222, 4);
+    color:rgb(251, 165, 7);
     font-size: 25px;
     margin-top: 10px;
+}
+
+.flags-container .card-flag:hover{
+    transform: scale(1.1);
+    background: -webkit-linear-gradient(270deg, rgb(210, 224, 2),rgb(178, 191, 2),rgb(120, 129, 1), black);
+    color:blueviolet;
+    cursor: pointer;
 }

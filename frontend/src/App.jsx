@@ -1,18 +1,19 @@
-import { useState } from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import CardFlags from './tools/cards-flags'
-import "./App.css"
 
+import "./App.css"
+  
 function App() {
   return (
     <>
       <header>
-        <h1>Welcome to the healty portal</h1>
-        <br/>
-        <h2>Please choose the language</h2>
+        <h1 className="title">Welcome to the healthy portal / Bienvenidos al portal de la salud</h1>
       </header>
       <main>
+        <h2 className="second-title">Choose your language / Elige tu idioma</h2>
         <CardFlags/>
       </main>
+      
     </>
   )
 }

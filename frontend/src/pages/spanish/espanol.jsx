@@ -1,4 +1,6 @@
-function init(){
+
+
+function initEspanol(){
   return(
     <>
         <header>
@@ -32,3 +34,4 @@ function init(){
     </>
   )
 }
+export default initEspanol

@@ -54,12 +54,14 @@ function CardFlags() {
         <>
           <div className="flags-container">
             {flags.map((flag, index)=>(
+              <Link to={flag.path} key={index} className="link-flag" style={{ textDecoration: 'none' }}>
                 <div className="card-flag">
-                  <img src={flag.src} alt={flag.alt} className="image-flag"/>
-                  <p className="letters">{flag.language}</p>
-                  <p className="letters">{flag.Idioma}</p>
+                    <img src={flag.src} alt={flag.alt} className="image-flag"/>
+                    <p className="letters">{flag.language}</p>
+                    <p className="letters">{flag.Idioma}</p>
                 </div>
-            ))}  
+              </Link>
+            ))} 
           </div>
         </>
     )

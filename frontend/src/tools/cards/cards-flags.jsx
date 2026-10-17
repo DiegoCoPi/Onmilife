@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
-import Colombia from '../assets/flags/Colombia.png'
-import Alemania from '../assets/flags/Alemania.png'
-import ReinoUnido from '../assets/flags/Reino_Unido.png'
-import Rusia from '../assets/flags/Rusia.png'
-import Italia from '../assets/flags/Italia.png'
-import "./card-flags.css"
+import Colombia from '@/assets/flags/Colombia.png'
+import Alemania from '@/assets/flags/Alemania.png'
+import ReinoUnido from '@/assets/flags/Reino_Unido.png'
+import Rusia from '@/assets/flags/Rusia.png'
+import Italia from '@/assets/flags/Italia.png'
+import "./cards.css"
 
 function CardFlags() {
     const flags=[

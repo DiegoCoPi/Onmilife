@@ -1,14 +1,16 @@
 import {Link} from 'react-router-dom'
+import Flecha_izquierda from '@/assets/desing/left-row.png'
 import './languages.css'
 
 function Espanol () {
   return(
     <>
       <header>
-        <div>
-          <h1>¡Bienvenidos al blog de la belleza y la nutrición!</h1>
-          <Link to="/">Volver</Link>
-        </div>
+        <h1 className="title">¡Aqui puedes consultar que productos son beneficos para tu salud!</h1>
+          <Link className="link" to="/">
+          <img src={Flecha_izquierda} className="arrow" alt="Flecha Izq"/>
+          Volver
+          </Link>
       </header>
       <main>
         <p>

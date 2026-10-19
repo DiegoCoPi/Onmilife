@@ -1,0 +1,6 @@
+.title-home{
+    text-align: center;
+    font-size: 30px;
+    -webkit-text-stroke: 1px rgb(248, 243, 248);
+    text-shadow: 10px 10px 20px rgb(0, 0, 0);
+}

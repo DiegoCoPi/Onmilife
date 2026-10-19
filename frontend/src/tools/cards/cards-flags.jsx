@@ -12,7 +12,6 @@ function CardFlags() {
           name:"Colombia", 
           src:Colombia, 
           alt:"Colombia flag", 
-          language:"Spanish", 
           Idioma:"Español",
           path:"/espanol",
         },
@@ -20,7 +19,6 @@ function CardFlags() {
           name:"Alemania",
           src:Alemania, 
           alt:"Germany flag", 
-          language:"German", 
           Idioma:"Deutsch",
           path:"/deutsch",
         },
@@ -28,23 +26,20 @@ function CardFlags() {
           name:"Reino Unido", 
           src:ReinoUnido, 
           alt:"United Kingdom flag", 
-          language:"English", 
-          Idioma:"Inglés",
+          Idioma:"English",
           path:"/english"
         },
         {
           name:"Rusia", 
           src:Rusia, 
           alt:"Russia flag", 
-          language:"Russian", 
-          Idioma:"русский язык",
+          Idioma:"Russian", 
           path:"/русский"
         },
         {
           name:"Italia", 
           src:Italia, 
           alt:"Italy flag", 
-          language:"Italian", 
           Idioma:"Italiano",
           path:"/italiano"
         }
@@ -57,7 +52,6 @@ function CardFlags() {
               <Link to={flag.path} key={index} className="link-flag" style={{ textDecoration: 'none' }}>
                 <div className="card-flag">
                     <img src={flag.src} alt={flag.alt} className="image-flag"/>
-                    <p className="letters">{flag.language}</p>
                     <p className="letters">{flag.Idioma}</p>
                 </div>
               </Link>

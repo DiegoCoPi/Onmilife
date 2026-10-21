@@ -27,7 +27,7 @@ function Footer(){
                         </div>
                     </Link>
                 </div>
-                <p>Todos los derechos reservado © copyright Diego Alexander Corrales Piñeros</p>
+                <p className="text">Todos los derechos reservado © copyright Diego Alexander Corrales Piñeros</p>
             </div>
         </footer>
     )

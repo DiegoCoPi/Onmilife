@@ -6,6 +6,7 @@
     background-color: orange;
     color: blueviolet;
     padding: 15px;
+    padding-bottom: 0;
     z-index: 1000;
 }
 
@@ -46,4 +47,8 @@ a:visited,
 a:active {
     text-decoration: none;
     color: inherit;
+}
+
+.text{
+    font-size: 30px;
 }

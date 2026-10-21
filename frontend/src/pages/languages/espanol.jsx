@@ -17,9 +17,13 @@ function Espanol () {
       </header>
       <main>
         <p>
-          Aqui podras encontrar las mejores recomendaciones, productos y recomendaciones que le ayudará a mejorar y conservar tu cuerpo a traves de la nutrición
-          y belleza, aqui podras encontrar diversos productos en nutrición y belleza para mejorar y conservar el mejor estado de salud, con opciones para ayudar a
-          tratar falencias y enfermedades, conservar la salud ademas de enbellezer y mejoarar el aspecto físico y estético.
+          Aqui puedes descubrir más de 120 productos de nutrición y más de 60 productos de belleza para mejorar tu calidad de vida en el activo
+          más importante para los seres humanos que es <strong>la salud</strong>, en este espacio puede descubrir el beneficio de cada uno de los 
+          productos, la composición de los mismos y consejos practica para consumo y mejoramiento de la condición de sauld.
+          Por otra parte la belleza también es un componenete importante para la salud ya que tenemos que cuidar la estetica de nuestro cuerpo como la
+          piel para toda las personas, especialmente las mujeres tienen una variedad de productos para resaltar la belleza y al mismo tiempo cuidar 
+          la piel    
+
         </p>
       </main>
       <Footer/>

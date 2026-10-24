@@ -1,11 +1,15 @@
 .link, link:visited, link:active{
+    display: inline-flex;
     color:orange;
     text-decoration: none;
+    align-items: center;
     text-align: right;
+    gap:3px;
+    font-size: 20px;
 }
 
 .link:hover{
-    color:rgb(4, 255, 96)
+    transform: scale(1.2);
 }
 
 div-button{
@@ -14,6 +18,11 @@ div-button{
 }
 
 .arrow{
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
+    display: block;
+}
+
+.paragraph{
+    font-size: 35px
 }

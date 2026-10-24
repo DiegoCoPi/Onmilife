@@ -1,8 +1,19 @@
+main{
+  padding-bottom: 200px;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding-bottom: 190px;
+  }
+}
+
 html,body{
   margin: 0;
   padding: 0;
   height: 100%;
 }
+
 :root{
   display: flex;
   color:orange;
@@ -30,3 +41,5 @@ img{
   -webkit-text-stroke: 0.5px rgb(248, 243, 248);
   text-shadow: 10px 10px 20px rgb(0, 0, 0);
 }
+
+

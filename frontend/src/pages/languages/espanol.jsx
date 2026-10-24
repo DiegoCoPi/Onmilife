@@ -10,21 +10,28 @@ function Espanol () {
         <h1 className="title">¡Aqui puedes consultar que productos son beneficos para tu salud!</h1>
           <div className="div-button">
             <Link className="link" to="/">
-            <img src={Flecha_izquierda} className="arrow" alt="Flecha Izq"/>
-            Volver
+              <img src={Flecha_izquierda} className="arrow" alt="Flecha Izq"/>
+              Volver
             </Link>
           </div>
       </header>
       <main>
-        <p>
-          Aqui puedes descubrir más de 120 productos de nutrición y más de 60 productos de belleza para mejorar tu calidad de vida en el activo
-          más importante para los seres humanos que es <strong>la salud</strong>, en este espacio puede descubrir el beneficio de cada uno de los 
-          productos, la composición de los mismos y consejos practica para consumo y mejoramiento de la condición de sauld.
-          Por otra parte la belleza también es un componenete importante para la salud ya que tenemos que cuidar la estetica de nuestro cuerpo como la
-          piel para toda las personas, especialmente las mujeres tienen una variedad de productos para resaltar la belleza y al mismo tiempo cuidar 
-          la piel    
+        <p className="paragraph">
+          ¡Bienvenido! Aquí te esperan más de 120 productos de nutrición y más de 60 de belleza,
+          pensados para ayudarte a sentirte mejor cada día. Todo parte de lo más valioso que tenemos:{" "}
+          <strong>la salud</strong>. Por eso, en este espacio descubrirás para qué sirve cada producto,
+          de qué está hecho y cómo incluirlo en tu rutina con consejos prácticos y sencillos.
+          <br /><br />
+          Y porque cuidarte también es verte bien, encontrarás opciones para resaltar tu belleza
+          mientras proteges tu piel, esa carta de presentación que habla de ti. ¿Cuál será el
+          primer producto que quieras conocer? Anímate a explorar, ¡hay mucho por descubrir!
 
+          <br/><br/><br/>
+          ¡Qué bueno que estes aqui! estas por conocer la mejor decisión que hayas tomado, ya que uno de los más grandes tesoros 
+          de los seres humanos es la salud, ya que nos permite vivir en pleitud la vida y aquí te mostrare más de 120 productos
+          en nutrición y más de 60 productos de belleza
         </p>
+        
       </main>
       <Footer/>
     </>

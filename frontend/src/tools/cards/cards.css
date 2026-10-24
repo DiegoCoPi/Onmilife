@@ -2,7 +2,8 @@
     display: grid;
     grid-template-columns:repeat(4, 300px);
     text-align: center;
-    gap:80px
+    gap:80px;
+    margin: 30px;
 }
 .card-flag{
     display: flex;

@@ -33,8 +33,8 @@ function CardFlags() {
           name:"Rusia", 
           src:Rusia, 
           alt:"Russia flag", 
-          Idioma:"Russian", 
-          path:"/русский"
+          Idioma:"Pусский", 
+          path:"/russian"
         },
         {
           name:"Italia", 

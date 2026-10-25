@@ -26,3 +26,39 @@ div-button{
 .paragraph{
     font-size: 35px
 }
+
+.link-region {
+    display: inline-flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 20px;
+}
+
+.link-region a, 
+.link-region a:visited, 
+.link-region a:active {
+    text-decoration: none;
+    color: rgb(253, 194, 0);
+}
+
+.link-region a:hover {
+    transform: scale(1.1);
+}
+
+.health{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:800px;
+}
+
+.health a,
+.health a:visited,
+.health a:active{
+    color:rgb(253, 194, 0);
+    text-decoration: none;
+}
+
+.health a:hover{
+    transform:scale(1.3);
+}

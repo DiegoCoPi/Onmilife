@@ -17,19 +17,34 @@ function Espanol () {
       </header>
       <main>
         <p className="paragraph">
-          ¡Bienvenido! Aquí te esperan más de 120 productos de nutrición y más de 60 de belleza,
-          pensados para ayudarte a sentirte mejor cada día. Todo parte de lo más valioso que tenemos:{" "}
-          <strong>la salud</strong>. Por eso, en este espacio descubrirás para qué sirve cada producto,
-          de qué está hecho y cómo incluirlo en tu rutina con consejos prácticos y sencillos.
-          <br /><br />
-          Y porque cuidarte también es verte bien, encontrarás opciones para resaltar tu belleza
-          mientras proteges tu piel, esa carta de presentación que habla de ti. ¿Cuál será el
-          primer producto que quieras conocer? Anímate a explorar, ¡hay mucho por descubrir!
+          ¡Felicitacones por estar aqui! has tomado una decisión que te mejora la calidad de vida ademas de ayudar a conservar y
+          mejorar el bien más preciado de todos que es <strong>la salud,</strong> ya que con ella nos permite vivir experiencias
+          que brinda el día a día, para ayudarte a solventar las dolencias o querer mantener el buen estado de salud aqui podras
+          tener información acerca de los más de 120 productos de nutrición y de más de 60 productos de belleza. 
+          
+          <br/><br/>
+          La salud se compone de la buena alimentación y el cuidado de la piel por eso estos productos esta pensado en nosotros
+          ya que no son cocentrados químicamente sino a base de productos orgánicos y naturales, este espacio esta ideado para que
+          conozca el beneficio al cuerpo, especificamente en que sistema del cuerpo humano actua junto con los beneficios de los 
+          productos de <strong>Seytú</strong>, a continuación mostraré los productos, la composición y los beneficios que traen
+          al sistema del cuerpo.
 
-          <br/><br/><br/>
-          ¡Qué bueno que estes aqui! estas por conocer la mejor decisión que hayas tomado, ya que uno de los más grandes tesoros 
-          de los seres humanos es la salud, ya que nos permite vivir en pleitud la vida y aquí te mostrare más de 120 productos
-          en nutrición y más de 60 productos de belleza
+          <div>
+            <h2>Consulte los productos Aqui</h2>
+            <div className='health'>
+              <Link to="/nutrition"><p>Nutrición</p></Link>
+              <Link><p>Belleza</p></Link>
+            </div>
+          </div>
+
+          <h2>Elije tu region</h2>
+
+          <div className="link-region">
+            <Link to="/"><h3>Sudamerica</h3></Link>
+            <Link><h3>Centro y Norteamerica</h3></Link>
+            <Link><h3>Europa</h3></Link>
+          </div>
+
         </p>
         
       </main>

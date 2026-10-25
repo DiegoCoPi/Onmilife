@@ -32,8 +32,8 @@ function Espanol () {
           <div>
             <h2>Consulte los productos Aqui</h2>
             <div className='health'>
-              <Link to="/nutrition"><p>Nutrición</p></Link>
-              <Link><p>Belleza</p></Link>
+              <Link to="/nutrition-es"><p>Nutrición</p></Link>
+              <Link to="/beautiful-es"><p>Belleza</p></Link>
             </div>
           </div>
 

@@ -1,0 +1,12 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.card-products{
+    background: linear-gradient(45deg, rgb(254, 237, 0), rgb(193, 180, 1), rgb(121, 113, 1), rgb(49, 46, 0));
+    color: rgb(2, 2, 74);
+    padding: 20px;
+}

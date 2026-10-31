@@ -2,6 +2,10 @@ import Footer from "../../tools/footer/footer"
 import { useState } from 'react';
 import './nutrition.css'
 import { Link } from "react-router-dom";
+import LeftR from '@/assets/desing/leftR.png';
+import RightR from '@/assets/desing/rightR.png';
+import Onmiost from '@/assets/products/nutrition';
+
 
 function NutritionCardsEsp(){
 
@@ -9,7 +13,7 @@ function NutritionCardsEsp(){
         {
             name:'Omniost',
             system:"Sistema Oseo",
-            src:"",
+            src: Onmiost,
             Description: "Este producto es a base de banano para fortalezer el sistema oseo y evitar la osteoporosis"
 
         },
@@ -47,19 +51,22 @@ function NutritionCardsEsp(){
             {/* Aqui la tarjetas de los productos*/ }
             <div>
                 {Nutrition.map((nutri, index)=>(
-                    <div key={index}>
-                        <h2>{nutri.name}</h2>
-                        <img src={nutri.src} alt={nutri.alt} className="image-flag"/>
-                        <p>Sistema:{nutri.system}</p>
-                        <p>Descripción:{nutri.Description}</p>
-
+                    <div key={index} className="card-main">
+                        <div className="header-card">
+                            <h2>{nutri.name}</h2>
+                            <img src={nutri.src} alt={nutri.name}/>
+                        </div>
+                        <div className="text-card">    
+                            <p>Sistema:{nutri.system}</p>
+                            <p>Descripción:{nutri.Description}</p>
+                        </div>
                     </div>
                 ))}
             </div>
             <div>
                 {/*Aqui va los botones con los efectos de dezlizamiento */}
-                <button><img/></button>
-                <button><img/></button>
+                <button><img src={LeftR} alt="Flecha Izquierda"/></button>
+                <button><img src={RightR} alt="Flecha Derecha"/></button>
             </div>  
             <Footer/>
         </>

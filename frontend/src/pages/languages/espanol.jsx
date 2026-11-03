@@ -28,7 +28,7 @@ function Espanol () {
           conozca el beneficio al cuerpo, especificamente en que sistema del cuerpo humano actua junto con los beneficios de los 
           productos de <strong>Seytú</strong>, a continuación mostraré los productos, la composición y los beneficios que traen
           al sistema del cuerpo.
-
+          </p>
           <div>
             <h2>Consulte los productos Aqui</h2>
             <div className='health'>
@@ -41,11 +41,9 @@ function Espanol () {
 
           <div className="link-region">
             <Link to="/"><h3>Sudamerica</h3></Link>
-            <Link><h3>Centro y Norteamerica</h3></Link>
-            <Link><h3>Europa</h3></Link>
+            <Link to="/centnorth"><h3>Centro y Norteamerica</h3></Link>
+            <Link to="/europa"><h3>Europa</h3></Link>
           </div>
-
-        </p>
         
       </main>
       <Footer/>

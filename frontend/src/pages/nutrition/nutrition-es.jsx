@@ -2,8 +2,8 @@ import Footer from "../../tools/footer/footer";
 import { useState } from 'react';
 import './nutrition.css';
 import { Link } from "react-router-dom";
-import LeftR from '@/assets/desing/leftR.png';
-import RightR from '@/assets/desing/rightR.png';
+import LeftR from '@/assets/desing/leftA.png';
+import RightR from '@/assets/desing/rightA.png';
 
 // Productos Omnilife
 import Aqtua from "../../assets/products/nutrition/aqtua.jpeg";

@@ -1,6 +1,7 @@
 import Footer from '../../tools/footer/footer';
 import NutritionCardsEsp from '../../pages/nutrition/nutrition-es';
-import spanishCountries from '../../tools/cards/spanish/contries-spanish'
+import southAmericaCountries from '../../tools/cards/spanish/southAmerica';
+import { Link } from 'react-router-dom';
 
 function NutritionEsp() {
     return(
@@ -17,16 +18,15 @@ function NutritionEsp() {
                     No necesitas cambiarlo todo de un día para otro. Cada pequeño paso cuenta: elegir mejor, cuidar tu piel, nutrir tu cuerpo y mantener la disciplina. Hoy es el momento ideal para tomar la decisión de mejorar tu salud y conservarla día a día.
                     Tu bienestar comienza con una decisión. Nosotros estaremos aquí para acompañarte.
                 </p>
-                <p>
-                   
-
-                </p>
-
-                <br/>
                 <NutritionCardsEsp/>
                 <br/>
                 <h2>¿Quiere conocer más productos?, aqui te dejo el catalogo para los paises.</h2>
-                {spanishCountries()}
+                <div className="link-text">
+                    <Link><h2 className="title">Sudamérica</h2></Link>
+                    <Link><h2 className="title">Centro y Norte América</h2></Link>
+                    <Link><h2 className="title">Europa</h2></Link>
+                </div>
+                {southAmericaCountries()}
             </main>
             <Footer/>
         </>

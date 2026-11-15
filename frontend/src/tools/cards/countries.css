@@ -37,7 +37,6 @@
 
 .flip-south:hover .flip-inner-south {
   transform: rotateY(180deg);
-  cursor: pointer;
 }
 
 
@@ -46,7 +45,7 @@
   position: absolute;
   inset: 0;
   box-sizing: border-box;
-  background: linear-gradient(135deg, rgb(239, 128, 1), rgb(125, 2, 121), rgb(125, 2, 121), rgb(239, 128, 1));
+  background: linear-gradient(135deg, rgb(239, 1, 195), rgb(125, 2, 121), rgb(125, 2, 121), rgb(239, 1, 195));
   color: rgb(241, 129, 1);
   border: 10px solid rgb(32, 0, 83);
   border-radius: 20px;
@@ -113,13 +112,25 @@
   transform: scale(1.2);
 }
 
+.button-main{
+  margin-bottom: 5px;
+  text-align: center;
+}
+
 .button-see{
   background-color: rgb(241, 129, 1);
   color: rgb(32, 0, 83);
+  border: 3px solid rgb(32, 0, 83);
   align-items: center;
+  text-align: center;
+  padding: 6px;
   transform: scale(1.2);
+  margin-top:10px;
 }
 
 .button-see:hover{
-  transform: scale(1.4);
+  background-color: rgb(32, 0, 83);
+  color: rgb(241, 129, 1);
+  border: 3px solid rgb(241, 129, 1);
+  cursor: pointer;
 }

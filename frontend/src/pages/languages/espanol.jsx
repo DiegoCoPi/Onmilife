@@ -1,6 +1,5 @@
 import Footer from '../../tools/footer/footer';
 import NutritionCardsEsp from '../../pages/nutrition/nutrition-es';
-import southAmericaCountries from '../../tools/cards/spanish/southAmerica';
 import { Link } from 'react-router-dom';
 
 function NutritionEsp() {
@@ -22,11 +21,10 @@ function NutritionEsp() {
                 <br/>
                 <h2>¿Quiere conocer más productos?, aqui te dejo el catalogo para los paises.</h2>
                 <div className="link-text">
-                    <Link><h2 className="title">Sudamérica</h2></Link>
+                    <Link to="/spanish/southAmerica"><h2 className="title">Sudamérica</h2></Link>
                     <Link><h2 className="title">Centro y Norte América</h2></Link>
                     <Link><h2 className="title">Europa</h2></Link>
                 </div>
-                {southAmericaCountries()}
             </main>
             <Footer/>
         </>

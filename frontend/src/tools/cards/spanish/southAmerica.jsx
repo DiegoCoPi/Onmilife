@@ -20,8 +20,8 @@ function southAmericaCountriesES(){
 
     const Countries=[
         {name:"Colombia", src:Colombia, productos:["Onmiost", "Homo"]},
-        {name:"Bolivia", src:Bolivia},
-        {name:"Brasil", src:Brasil},
+        {name:"Bolivia", src:Bolivia, productos:["Fem", "Power maker"]},
+        {name:"Brasil", src:Brasil, productos:["Cognos", "Uzo"]},
         {name:"Argentina", src:Argentina},
         {name:"Perú", src:Peru},
         {name:"Chile", src:Chile},
@@ -57,11 +57,11 @@ return (
         </p>
       </div>
       <div className="slider-viewport">
-        <div className="slider-track" style={{ transform: `translateX(-${country * 25}%)` }}>
+        <div className="slider-track" style={{ transform: `translateX(-${country * 33}%)` }}>
           {Countries.map((item, index) => (
             <div key={index} className="slide">
-              <div className="flip-card">
-                <div className="flip-inner">
+              <div className="flip-south">
+                <div className="flip-inner-south">
                   {/* Parte delantera */}
                   <div className="card-front-south">
                     <h2>{item.name}</h2>
@@ -69,8 +69,17 @@ return (
                   </div>
                   {/* Parte trasera */}
                   <div className="card-back-south">
-                    <h2>{item.name}</h2>
-                    <p>{item.productos}</p>
+                    <h2>Algunos productos disponibles</h2>
+                    {item.productos?.length > 0?(
+                      <ul>
+                        {item.productos.map((producto, i)=>(
+                          <li key={i}>{producto}</li>
+                        ))}
+                      </ul>
+                    ):(
+                      <p>Proximamente</p>
+                    )}
+                    <button className="button-see">Ver mas</button>
                   </div>
                 </div>
               </div>

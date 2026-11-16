@@ -1,9 +1,10 @@
 import { useState } from 'react';
-import '../../../tools/cards/countries.css';
+import '../countries.css';
 //Bandera de los paises
 import Colombia from '../../../assets/flags/southamerica/Colombia.png';
 import Bolivia from '../../../assets/flags/southamerica/Bolivia.png';
 import Brasil from '../../../assets/flags/southamerica/Brasil.png';
+import Ecuador from '../../../assets/flags/southamerica/Ecuador.png';
 import Argentina from '../../../assets/flags/southamerica/Argentina.png';
 import Chile from '../../../assets/flags/southamerica/Chile.png';
 import Peru from '../../../assets/flags/southamerica/Peru.png';
@@ -24,14 +25,16 @@ function southAmericaCountriesES(){
         {name:"Brasil", src:Brasil, productos:["Magnus Supreme", "Kenyan","Aoé Supreme","Shake Supreme","Pump","Magnus","Onmiplus Açaí","Teatino"]},
         {name:"Argentina", src:Argentina, productos:["TMGN Coffee", "Fem"," Biocros","Teatino Limón","Estop Plus","One C Mix","Uzo Supreme","Ego Life"]},
         {name:"Perú", src:Peru, productos:["Chiva Cola", "Super Mix Supreme","Onmiplus","Flu Y","Magnus","Optimus","Power maker","Probiotic"]},
-        {name:"Chile", src:Chile},
-        {name:"Paraguay", src:Paraguay},
-        {name:"Uruguay", src:Uruguay}
+        {name:"Ecuador", src:Ecuador, productos:["Super Mix", "Ego Life","Star bien","Undú","One C Mix","Dolce Vita","Ego","Onmi Plus"]},
+        {name:"Chile", src:Chile, productos:["Magnus","Probiotic","Optimus","Ego Life","Aloe beta","Cafezzino Plus","Onmiplus","Starb"]},
+        {name:"Paraguay", src:Paraguay, productos:["Biocros", "Star bien","Fem","One C Mix","Optimus","Finer'N Plus","Cafezzino Plus","Homo"]},
+        {name:"Uruguay", src:Uruguay, productos:["Teatino", "Onmiplus","Fem","Onmibeta","Biocros","One C Mix","Cafezzino Plus","Starb"]}
+        
     ]
 
-    const[country, setCountry]=useState(0)
+    const[country, setCountry]=useState(1)
     const totalCountries = Countries.length;
-    const maxIndex = Math.max(totalCountries - 4, 0)   // última posición válida (4 visibles)
+    const maxIndex = Math.max(totalCountries - 3, 0)   // última posición válida 
 
 const prevCountry = () => {
   setCountry(country > 0 ? country - 1 : maxIndex)
@@ -52,11 +55,11 @@ return (
           Aqui en sudamerica la fabrica que abastece a toda sudamerica esta ubicado en Guachené, Cauca en Colombia
           aqui puede encontrar los productos que estan disponibles en el país sudamericano que se encuentre, aqui te dejo
           algunos productos disponibles en los paises, seleciona el mismo y veras el listado, si quiere tener mas información
-          de los productos puede acer click en ver más.
+          de los productos puede hacer click en ver más.
         </p>
       </div>
       <div className="slider-viewport">
-        <div className="slider-track" style={{ transform: `translateX(-${country * 33}%)` }}>
+        <div className="slider-track"  style={{ transform: `translateX(-${country * (100 / 3)}%)` }}>
           {Countries.map((item, index) => (
             <div key={index} className="slide">
               <div className="flip-south">

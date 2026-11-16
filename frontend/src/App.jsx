@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import Espanol from './pages/languages/espanol'
 import NutritionCardsEsp from '../src/pages/nutrition/nutrition-es'
 import SouthAmericaCountriesES from '@/tools/cards/spanish/southAmerica'
+import EuroAsiaCountriesES from '@/tools/cards/spanish/euroAsia'
 import "./App.css";
 import Home from './pages/home/home';
 
@@ -14,6 +15,7 @@ function App() {
       <Route path="/espanol" element={<Espanol/>}/>
       <Route path="/nutrition-es" element={<NutritionCardsEsp/>}/>
       <Route path="/spanish/southAmerica" element={<SouthAmericaCountriesES/>}/>
+      <Route path="/spanish/euroAsia" element={<EuroAsiaCountriesES/>}/>
     </Routes>
   )
 }

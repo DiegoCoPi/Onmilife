@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
 import Colombia from '@/assets/flags/southamerica/Colombia.png'
-import Alemania from '@/assets/flags/europe/Alemania.png'
-import ReinoUnido from '@/assets/flags/europe/Reino_Unido.png'
-import Rusia from '@/assets/flags/europe/Rusia.png'
-import Italia from '@/assets/flags/europe/Italia.png'
+import Alemania from '@/assets/flags/euroAsia/Alemania.png'
+import ReinoUnido from '@/assets/flags/euroAsia/Reino_Unido.png'
+import Rusia from '@/assets/flags/euroAsia/Rusia.png'
+import Italia from '@/assets/flags/euroAsia/Italia.png'
 import "./cards.css"
 
 function CardFlags() {

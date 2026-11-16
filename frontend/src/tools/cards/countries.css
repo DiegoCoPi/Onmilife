@@ -39,6 +39,9 @@
   transform: rotateY(180deg);
 }
 
+.paragraph{
+  font-size: 35px;
+}
 
 .card-front-south,
 .card-back-south {

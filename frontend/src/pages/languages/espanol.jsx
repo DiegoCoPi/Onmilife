@@ -23,7 +23,7 @@ function NutritionEsp() {
                 <div className="link-text">
                     <Link to="/spanish/southAmerica"><h2 className="title">Sudamérica</h2></Link>
                     <Link><h2 className="title">Centro y Norte América</h2></Link>
-                    <Link><h2 className="title">Europa</h2></Link>
+                    <Link to="/spanish/euroAsia"><h2 className="title">Europa</h2></Link>
                 </div>
             </main>
             <Footer/>
